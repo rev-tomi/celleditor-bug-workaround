@@ -7,6 +7,10 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.event.CellEditorListener;
 
+/**
+ * This class is a CellEditor with a workaround for this bug: http://bugs.java.com/bugdatabase/view_bug.do?bug_id=6788481
+ * If you find it too ceremonial then you can use it as a blueprint for using TableEditorListenerHelper
+ */
 @SuppressWarnings("serial")
 public abstract class HackedCellEditor extends DefaultCellEditor {
 	

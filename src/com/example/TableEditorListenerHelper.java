@@ -13,10 +13,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.EventListenerList;
 
 /**
- * This class is a workaround for a java bug: http://bugs.java.com/bugdatabase/view_bug.do?bug_id=6788481
- * CellEditorListener.editorCanceled() doesn't get invoked in JTable-s.
- * JTable can have CellEditors with different input fields. This
- * workaround works only with JTextField inputs.
+ * This class is a helper for a workaround for this bug: http://bugs.java.com/bugdatabase/view_bug.do?bug_id=6788481
  */
 public class TableEditorListenerHelper {
 	

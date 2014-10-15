@@ -58,6 +58,10 @@ public class TableEditorListenerHelper {
 		});
 	}
 	
+	public void setTable(JTable table) {
+		this.table = table;
+	}
+	
 	public void addCellEditorListener(CellEditorListener l) {
 		listeners.add(CellEditorListener.class, l);
 	}
